@@ -1,0 +1,14 @@
+body {
+   background-color: rgb(114, 1, 1);
+    padding: 10%;
+}
+h1 {
+    background-color: rgb(29, 28, 28);
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+font-size: 60px;
+color: white;
+}
+head {
+    background-color: rgb(169, 80, 80);
+}

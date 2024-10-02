@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando hover</title>
+    <style>
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+div {
+    color: white;
+}
+div > p {
+    display: none;
+}
+p#segredo {
+font-size: 5em;
+}
+div:hover > p {
+display: block;
+color: red;
+}
+
+    </style>
+</head>
+<body>
+    <h1>teste de hover</h1>
+    <p>
+        passe o mouse no testo abaixo e veja a magica acontecer.
+    </p>
+    <div>passe o mouse aqui
+        <p id="segredo">
+            bom dia!!!
+        </p>
+    </div>
+    <p>gostou??</p>
+</body>
+</html>

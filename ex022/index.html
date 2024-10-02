@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links personalizados</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        a:visited {
+            color: yellow;
+        }
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+        a:active {
+            color: blue;
+        }
+
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkcyan;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Personalisando links</h1>
+    <ul>
+        <li>
+            <a href="https://music.youtube.com/watch?v=Qf_YgxpBVVI&si=CjpGGffVhnB2DREJ">
+                link 1
+            </a>
+        </li>
+        <li>
+            <a href="https://music.youtube.com/playlist?list=OLAK5uy_nICeJP4ilkJ4FN3rnGCFSbpzE6fwS6cjA&si=0JlceDw0qKb9Ex_H">
+                link 2
+            </a>
+            </li>
+        <li>
+            <a href="https://music.youtube.com/watch?v=S3rZarWF_BM&si=WamFeOrYiSBYHwEm">
+                link 3
+            </a>
+        </li>
+
+    </ul>
+    <h2>elementos personalizados.</h2>
+    <p>
+        <pre style="background-color: black; color: yellow;">
+            
+        # = id 
+        . = class
+        : = pseudo-class 
+        :: = pseudo-element 
+        > = clildren
+        </pre>
+    </p>
+</body>
+</html>

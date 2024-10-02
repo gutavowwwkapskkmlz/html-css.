@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'london';
+            src: url('OldLondon.ttf') format('opentype'), url('Olondona.otf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: computer;
+            src: url('Computerfont.ttf') format('opentype');
+            font-size: normal;
+            font-weight: normal;
+        }
+        body { 
+            font-family:'computer';
+            background-color: yellow;
+        }
+        h1 {
+            font-family: 'computer';
+            font-size: 3em;
+            text-align: center;
+
+        }
+        pre {
+            background-color: black;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Baixando fontes externas</h1>
+    <p>
+        <pre>
+
+            @font-face {
+                font-family: 'london';
+                src: url('OldLondon.ttf') format('opentype'),
+                url('Olondona.otf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+        </pre>
+    </p>
+    <p>Usamos esse codigo de css para configurar fontes usadas externamentes. </p>
+</body>
+</html>
