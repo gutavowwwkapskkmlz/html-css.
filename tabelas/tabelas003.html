@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de tabelas</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace
+            ;
+        }
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        td {
+            background-color:#fca330;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>mesclando tabelas</h1>
+    <table>
+        <tr>
+           
+            <td colspan="3" style="background-color: lightblue;">1</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="2" style="background-color: lightblue;">4</td>
+            <td>e</td>
+            <td rowspan="2" style="background-color: lightblue;">2</td>
+        </tr>
+        <tr>
+           
+            <td>h</td>
+            
+        </tr>
+        <tr>
+            
+            <td colspan="3" style="background-color: lightblue;">3</td>
+        </tr>
+    </table>
+</body>
+</html>
