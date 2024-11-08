@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        fieldset {
+            background-color: green;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        teste de formulario
+    </h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>dados pessoais</legend>
+            <p>
+                <label for="iemail"> E-mail</label>
+                <input type="email" name="iemail" id="iemail" autocomplete="email">
+            </p>
+            <p>
+                <label for="itel"> telefone</label>
+                <input type="tel" name="itel" id="itel" autocomplete="tel" pattern="^[0-9]{4}-[0-9]{4}$" required>
+            </p>
+            <!-- estudar mais sobre regEx -->
+            <p>
+                <input type="submit" value="enviar">
+            </p>
+        </fieldset>
+    </form>
+
+</body>
+</html>
