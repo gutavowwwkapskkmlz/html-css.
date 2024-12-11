@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-box</title>
+    <style>
+        div.conteiner {
+            background-color: yellow;
+            display: flex;
+             flex-flow: column wrap;
+             height: 200px;
+            
+        }
+        div.conteiner2 {
+            background-color: yellow;
+            display: flex;
+             flex-flow: row wrap;
+             height: 200px;
+            
+        }
+        div.item {
+            background-color: rgb(52, 92, 128);
+            border: 1px solid black;
+            text-align: center;
+            flex: auto;
+        }
+        h1 {
+            background-color: black;
+            color: yellow;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+        div.item2 {
+            background-color: rgb(52, 92, 128);
+            border: 1px solid black;
+            text-align: center;
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner2">
+        <div class="item">Exemplo de bloco a</div>
+        <div class="item">Exemplo de bloco b</div>
+        <div class="item">Exemplo de bloco c</div>
+        <div class="item">Exemplo de bloco d</div>
+        <div class="item">Exemplo de bloco e</div>
+        <div class="item">Exemplo de bloco f</div>
+        <div class="item">Exemplo de bloco g</div>
+    </div>
+    <h1>Divisão</h1>
+    <div class="conteiner">
+        <div class="item2">Exemplo de bloco a</div>
+        <div class="item2">Exemplo de bloco b</div>
+        <div class="item2">Exemplo de bloco c</div>
+        <div class="item2">Exemplo de bloco d</div>
+        <div class="item2">Exemplo de bloco e</div>
+        <div class="item2">Exemplo de bloco f</div>
+        <div class="item2">Exemplo de bloco g</div>
+    </div>
+</body>
