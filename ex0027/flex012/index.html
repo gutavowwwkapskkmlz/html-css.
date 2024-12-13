@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-box</title>
+    <style>
+        div.conteiner {
+            background-color: yellow;
+            display: flex;
+            flex-flow: row nowrap;
+            border: 1px solid black;
+            
+        }
+        div.item {
+           /*  flex-grow: 2;
+           flex-shrink: 1;
+            flex-basis: 200px; */
+            flex: none;
+            background-color: rgb(105, 105, 70);
+          
+        
+        }
+        div#cx1{
+          /*  flex-shrink: 1;
+            flex-grow: 3;
+            flex-basis: 200px; */
+            flex: 3 1 200px;
+        }
+        div#cx2{
+              /* flex-shrink: 1;
+            flex-grow: 8;
+            flex-basis: 200px; */
+            background-color: rgb(204, 204, 20);
+            flex: auto;
+        }
+        div#cx3{
+              /* flex-shrink: 1;
+            flex-grow: 4;
+            flex-basis: 200px;*/
+            flex:1 1 auto;
+            background-color: rgb(105, 105, 61);
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="cx1">a</div>
+        <div class="item" id="cx2">b</div>
+        <div class="item" id="cx3">c</div>
+    </div>
+</body>
+</html>

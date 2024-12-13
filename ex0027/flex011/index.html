@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-box</title>
+    <style>
+        div.conteiner {
+            background-color: yellow;
+            display: flex;
+            flex-flow: row nowrap;
+          
+            
+        }
+        div.item {
+            background-color: rgb(0, 91, 170);
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 200px;
+        
+        }
+        div#cx1{
+          
+            flex-shrink: 1;
+            flex-grow: 3;
+        }
+        div#cx2{
+            background-color: yellow;
+            flex-shrink: 1;
+            flex-grow: 8;
+        }
+        div#cx3{
+            
+            flex-shrink: 1;
+            flex-grow: 4;
+        }
+        div#cx4{
+            
+            flex-shrink: 1;
+            flex-grow: 3;
+        }
+        div#cx5{
+            
+            background-color: yellow;
+            flex-shrink: 1;
+            flex-grow: 3;
+        }
+        div#cx6{
+          flex-shrink: 1;
+            flex-grow: 4;
+        }
+        div#cx7{
+            
+            flex-shrink: 1;
+            flex-grow: 2.5;
+        }
+        div#cx8{
+            background-color: yellow;
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+        div#cx9{
+            
+         flex-shrink: 1;
+            flex-grow: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="cx1">a</div>
+        <div class="item" id="cx2">b</div>
+        <div class="item" id="cx3">c</div>
+    </div>
+    <div class="conteiner">
+        <div class="item" id="cx4">d</div>
+        <div class="item" id="cx5">f</div>
+        <div class="item" id="cx6">g</div>
+    </div>
+    <div class="conteiner">
+        <div class="item" id="cx7">h</div>
+        <div class="item" id="cx8">i</div>
+        <div class="item" id="cx9">j</div>
+    </div>
+</body>
+</html>
